@@ -8,7 +8,7 @@ const CONTRACT_ADDRESS = process.env.CONTRACT_ADDRESS;
 
 async function main() {
   const NFT = await hre.ethers.getContractFactory("MyNFT");
-  const URI = "ipfs://QmejCbRNUuH436crCBKxPkakP47t2dp3kZHESAwmcVYcre";
+  const URI = "ipfs://QmdJg65XCMjJXQJLtuZJB9hEMnXnfcsrqdmBAzSu7J4rbg";
   const WALLET_ADDRESS = PUBLIC_KEY;
   const contract = NFT.attach(CONTRACT_ADDRESS);
   await contract.mint(WALLET_ADDRESS, URI);

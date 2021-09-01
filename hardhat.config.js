@@ -1,5 +1,6 @@
 require('dotenv').config();
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
+const API_URL = process.env.API_URL;
 
 require("@nomiclabs/hardhat-ethers");
 require("@nomiclabs/hardhat-waffle");
@@ -26,7 +27,7 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
     hardhat: {
     },
     matic: {
-      url: "https://polygon-mumbai.g.alchemy.com/v2/SKtdlFgBdem8l0tnUxl0beqqsHxTM0_y",
+      url: API_URL,
       accounts: [PRIVATE_KEY]
     }
   },
