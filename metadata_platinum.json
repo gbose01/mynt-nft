@@ -1,0 +1,17 @@
+{
+    "name": "Gaya",
+    "description": "Gaya is a car-sharing marketplace enabling members of close-knit communities (e.g., colleges) to share their cars and associated expenses, thereby consuming them in a social way. This Mynt is to be owned by early supporters and loyal fans. It will grant various special priviledges to the owner when using Gaya's services.",
+    "image": "ipfs://QmRqoi3tDdSr6zgVeyggzv4y2AroGEbhFxT9xqLPAFKcSc",
+    "attributes": [
+        {
+            "trait_type": "Tier",
+            "value": "Platinum"
+
+        },
+        {
+            "trait_type": "Category",
+            "value": "Consumer"
+
+        }
+    ]
+  }
