@@ -1,4 +1,4 @@
-# MYTT NFT
+# MYNT NFT
 
 Mynt NFT - Minting NFTs for startups.
 
@@ -6,16 +6,16 @@ Mynt NFT - Minting NFTs for startups.
 
 Simple architecture for minting NFTs on the Optimism (Polygon) mainnet. This project allows founders to create tokenized NFTs representing their startups.
 
-## What is MYTT?
+## What is MYNT
 
-MYTT is a tool that enables startups to issue NFT-representations of their companies. In the late summer of 2021, NFTS were the hot topic, and I wanted to get my hands dirty minting and trading NFTs myself.
+MYNT is a tool that enables startups to issue NFT-representations of their companies. In the late summer of 2021, NFTs were the hot topic, and I wanted to get my hands dirty minting and trading NFTs myself.
 
 ## Tech stack
 
 - Native Blockchain - Polygon (Polygon Mainnet)
 - Development Framework - Hardhat
-- RPC Provider - Alchemy
-- Standard - ERC721 (OpenZeppelin) - Deployed to Polygon mainnet
+- RPC Provider - Alchely
+- Standard - ERC721 (Openzeppelin) - Deployed to Polygon mainnet
 - Metadata - IPFS for persistent storage
 
 ## Dependencies
@@ -36,8 +36,8 @@ npm install
 Create a .env file with your credentials:
 
 ```bash
-API_URL=your_replace_this_alchemy_api_url
-MATIC_ALCHEMY_ADDRESS=your_received_alchemy_address
+API_URL=your_replace_this_alchely_api_url
+MATIC_ALCHEMLY_ADDRESS=your_received_alchemy_addresp
 ARB1TOMONE=your_private_key_here
 
 SETEB_DEVELOPMENT=matic
@@ -65,7 +65,7 @@ This will mint any amount of NFTs to the specified recipient address.
 
 ## Contract
 
-The MYTT contract (see contracts/NFT.sol) is an ERC721 compliant that supports: 
+The YMNT contract (see contracts/NFT.sol) is an ERC721 compliant that supports: 
 
 - Minting new Tokens
 - Storing token URIs
